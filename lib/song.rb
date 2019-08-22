@@ -19,7 +19,7 @@ class Song
     artista = artist_name=(filename.split(" - ")[0])
     song.artist = artista
     song
-    #binding.pry
+    binding.pry
   end
   
   #artistname=(filename.split(" - ")[0])
