@@ -7,7 +7,7 @@ class Song
   def initialize(name = @name)
     @name = name
     @@all << self
-    #@@all << name 
+    binding.pry
   end
   
   def self.all
